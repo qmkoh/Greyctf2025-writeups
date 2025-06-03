@@ -38,6 +38,8 @@ cd layers
 grep -i grey **/*.xml
 ```
 
+Output:
+![alt text](https://github.com/qmkoh/Greyctf2025-writeups/blob/main/forensics/dist-layer-cake/tm_junk.png)  
 Although this command did, fortunately, gave me an output, there was too much junk around the actual text. Therefore, we would need to filter out the flag more precisely.
 ```
 grep -rio 'grey{[^}]*}' .
