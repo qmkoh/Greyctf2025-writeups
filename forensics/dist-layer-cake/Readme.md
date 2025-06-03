@@ -45,6 +45,9 @@ grep -rio 'grey{[^}]*}' .
 To break down the code,
 - -r: recursively search through subdirectories
 - -i: case-sensitive, includes matches like GREY, grey etc. (may be removable as all flags in this competition are in lowercase 'grey{}'
-- -o: only output the line that matches the pattern. 
+- -o: only output the line that matches the pattern.
+- For the regex:
+  - [^}] = any character except }
+  - \* = zero or more of them.
 
 That's how we get the flag!
