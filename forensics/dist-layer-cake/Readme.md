@@ -32,7 +32,7 @@ This is the internal structure of a Microsoft Word `.docx` file that has been un
   - theme
   - webSettings.xml
 
-Approaching this, I figured the quickest and easiest way would be to check if the file is hidden as readable plaintext in the files. However, it is tedious to iterate through all .xml files manually. As such, I used the following command: 
+Approaching this, I figured the quickest and easiest way would be to check if the flag is hidden as readable plaintext in the files. However, it is tedious to iterate through all .xml files manually. As such, I used the following command: 
 ```
 cd layers
 grep -i grey **/*.xml
@@ -41,7 +41,8 @@ grep -i grey **/*.xml
 Output snippet (actual output is wayyyyyy longer):
 ![alt text](https://github.com/qmkoh/Greyctf2025-writeups/blob/main/forensics/dist-layer-cake/tm_junk.png)
 
-Although this command did, fortunately, gave me an output, there was too much junk around the actual text. Therefore, we would need to filter out the flag more precisely.
+As we can see, a potential flag string seems to be contained in the word/styles.xml .
+Although this command did, fortunately, gave me an output, there was just too much junk around the actual text. Therefore, we would need to filter out the flag more precisely, if we dont want to keep scrolling.
 ```
 grep -rio 'grey{[^}]*}' .
 ```
