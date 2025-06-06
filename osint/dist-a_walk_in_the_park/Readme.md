@@ -41,10 +41,11 @@ For now, I have chosen to follow the easiest lead: the Artist, Owner, and Copyri
 
 While IG did show me exactly 1 result for my search, initial glimpse of his posts and bio gave no leads or clues. Only after opening his stories do I get some sense of relief from a GreyCTF shoutout.
 
-
+![alt text](https://github.com/qmkoh/Greyctf2025-writeups/blob/main/osint/dist-a_walk_in_the_park/ig_gctf.jpg)
 
 Further stalking did not give anymore details nor clues about this guy's relation to the park. However, he seems to have a real passion for running given his following stories:
 
+![alt text](https://github.com/qmkoh/Greyctf2025-writeups/blob/main/osint/dist-a_walk_in_the_park/ig_watch.jpg)
 
 
 I figured no chill runner would consider getting a triathlon watch or make up public running polls. He is clearly from Singapore and the only places he can have intense running trainings is probably in a public park, which is highly likely where the signage where we are tasked to find lies in.
