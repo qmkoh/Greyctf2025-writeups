@@ -49,6 +49,9 @@ C = (($m^3$) * $2^r$) - k\*N, where r is the number of times "Tung!" printed, k 
 ∴ We need to reverse C to recover $m^3$ using C + k*N // $2^r$.  
 
 Crafting [solve_tung.py](./solve_tung.py), we first define a custom implementation of computing the nth root of an integer `x` using binary search. The resulting function `integer_nthroot(x, n)` ensures the root is an integer, and tells you if it was exact. Alternatively, the `integer_nthroot()` function from sympy (a symbolic math library) has a very similar usage as well, and returns integer m, as well as if it is exact.  
+*Note: Using python's `**` operator is not recommended.  
+i.e. `m = int(round((C + k * N) / (2**r)) ** (1/3))`  
+As this approach uses floating point, so it is less precise and not guaranteed to be exact for large numbers or cryptograhic work.*
 
 We then define known values e, N, C, r and k as given in `output.txt`.  
 
