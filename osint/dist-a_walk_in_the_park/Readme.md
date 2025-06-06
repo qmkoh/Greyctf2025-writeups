@@ -61,6 +61,7 @@ Following his route along Upper Serangoon road, we find a relatively small inter
 When I clicked on it, I was immediately shown the image:
 
 ![alt text](https://github.com/qmkoh/Greyctf2025-writeups/blob/main/osint/dist-a_walk_in_the_park/flag.png)
+
 Though at a slightly different angle, the prominent red and white building at the back is still present, along with other familiar infrastructures. 
 
 Thus we get the flag:
