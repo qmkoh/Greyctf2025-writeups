@@ -27,3 +27,17 @@ With renewed hope, I decided to narrow churches to this area, see what I could f
 ![First Attempt Location](./images/firstcoord.png)
 
 # BIG FAT FAIL
+## But not entirely
+Given that there was a picture of the church in this location, my spider senses where tingling. After all, it was quite possible for a tourist to mistakenly remember where he took his picture in a country where there is a church apparently every few meters. Or perhaps it was an intentional sabotage by our dear moderator team. Either ways, for the sake of my own sanity I decided to give the mods the benefit of the doubt.
+
+I zoomed into maps to get the rough location of the area and searched for the most generic keyword **church**. Methodically I went through the nearest churches to try and find a hit. And lo and behold we found our baby. 
+
+![General Area Lookup](./images/generic.png)
+
+From the picture above we can see that the church faces two possible intersections, which is of interest to us because of the challenge picture. But to be sure I had to look at the topological data to confirm the final position.
+
+![Final Location](./images/final.png)
+
+Scrutinizing very closely we can see that the shadow of the front part of the church is overcasting the roof of the rest of the building. Which means that the front of the church which we can see from the picture is facing the valley of grass towards the gas station. Given the lack of roads there and only a major intersection, it is safe to assume that this is the location from which the picture was taken and is marked in the screenshot with coordinates.
+
+Thankfully, after hours of torment. This was the correct location. Overall I'd say it was a fun experience if albeit slightly maddening. Thank you mods.
