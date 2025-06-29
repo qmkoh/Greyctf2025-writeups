@@ -1,5 +1,8 @@
 from Crypto.Util.number import long_to_bytes
 
+#Alternatively
+#from sympy import integer_nthroot
+
 def integer_nthroot(x, n):
     if x < 0:
         raise ValueError("Cannot compute root of negative number")
