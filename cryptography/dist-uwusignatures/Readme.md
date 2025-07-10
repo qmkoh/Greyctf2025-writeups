@@ -37,4 +37,4 @@ This scheme is not existentially unforgeable under chosen message attacks (EUF-C
 
    Once $x$ is recovered, we can sign any message, including `"gib flag pls uwu"` to attain the flag.
 
-   Flag: grey{h_h_H_h0wd_y0u_Do_tH4T_OMO}
+   Flag: `grey{h_h_H_h0wd_y0u_Do_tH4T_OMO}`
