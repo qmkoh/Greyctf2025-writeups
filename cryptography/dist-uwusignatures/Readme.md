@@ -22,7 +22,8 @@ Verification:
 $g^h = y^r ⋅ r^s mod p$
 
 ### Attack vector: Signature Forgery
-This scheme is not existentially unforgeable under chosen message attacks (EUF-CMA) if the attacker can obtain valid signatures and the hash function is predictable like SHA256.
+This scheme is not existentially unforgeable under chosen message attacks (EUF-CMA)* if the attacker can obtain valid signatures and the hash function is predictable like SHA256.
+*p.s. this is a formal security definition used to evaluate digital signature schemes
 
 1. Request two signatures: (m1, r1, s1) and (m2, r2, s2)
 2. If both use the same r (i.e. the same k), we can compute the private key x:
