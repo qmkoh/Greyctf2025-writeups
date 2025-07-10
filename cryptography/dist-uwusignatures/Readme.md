@@ -1,5 +1,5 @@
 # UWU Signatures
-This challenge basically implements a digital signature scheme based on ElGamal-style signatures. The vulnerability likely lies how we can request two signatures on arbitrary messages (except the target message), and then attempt to forge a signature on the protected message "gib flag pls uwu".
+This challenge basically implements a digital signature scheme based on ElGamal-style signatures. The vulnerability likely lies how we can request two signatures on arbitrary messages (except the target message), and then attempt to forge a signature on the protected message "gib flag pls uwu". 
 
 ### Key Concepts
 ElGamal-style Signature generation:
@@ -36,3 +36,5 @@ This scheme is not existentially unforgeable under chosen message attacks (EUF-C
    Then compute $x$ from either equation.
 
    Once $x$ is recovered, we can sign any message, including `"gib flag pls uwu"` to attain the flag.
+
+   Flag: grey{h_h_H_h0wd_y0u_Do_tH4T_OMO}
