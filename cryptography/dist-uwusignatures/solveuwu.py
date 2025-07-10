@@ -89,7 +89,7 @@ for attempt in range(10):
     x = ((h1 - s1 * k_recovered) * inverse(r, p - 1)) % (p - 1)
     break
 else:
-    print("❌ Failed to find usable signature pair after 10 attempts.")
+    print("Failed to find usable signature pair after 10 attempts.")
     exit()
 
 # === Forge signature on forbidden message ===
